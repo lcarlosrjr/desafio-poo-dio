@@ -43,7 +43,7 @@ public class Main {
         System.out.println("-");
         System.out.println("Conteudos Inscritos Irineu: " + dev1.getConteudosInscritos());
         System.out.println("Conteudos Concluidos Irineu: " + dev1.getConteudosConcluidos());
-        System.out.println("XP: " + dev1.calcularTotalXo());
+        System.out.println("XP: " + dev1.calcularTotalXp());
 
         System.out.println("-----------");
 
@@ -57,6 +57,6 @@ public class Main {
         System.out.println("-");
         System.out.println("Conteudos Inscritos Joaquim: " + dev2.getConteudosInscritos());
         System.out.println("Conteudos Concluidos Joaquim: " + dev2.getConteudosConcluidos());
-        System.out.println("XP: " + dev2.calcularTotalXo());
+        System.out.println("XP: " + dev2.calcularTotalXp());
     }
 }
